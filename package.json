@@ -1,0 +1,35 @@
+{
+  "name": "tutorial-publishing-npm-package",
+  "version": "0.0.1",
+  "description": "Learning to publish npm package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "ci": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamorlowskipoland/tutorial-publishing-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "tutorial",
+    "learning"
+  ],
+  "author": "AO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamorlowskipoland/tutorial-publishing-npm-package/issues"
+  },
+  "homepage": "https://github.com/adamorlowskipoland/tutorial-publishing-npm-package#readme",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  }
+}
